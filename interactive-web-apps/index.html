@@ -12,8 +12,12 @@
 
         <link rel="preconnect" href="https//fonts.gstatic.com" crossorigin> 
 
-        <link href="https:fonts.googleapis.com/css2?family=Overpass:wght@900&familty=Roboto:wght@400;900&display=swap" rel="stylesheet">
+        <link 
+         href="https:fonts.googleapis.com/css2?family=Overpass:wght@900&familty=Roboto:wght@400;900&display=swap" 
+         rel="stylesheet"
+        />
 
+    <script src="/script.js" defer></script>
     </head>
      <body>
         <hearder class="header">
@@ -41,8 +45,17 @@
                 </label>
 
                 <button>Settings</button>
-        </div>
-    </body>
-    </head>
+        <main class="counter">
+             <input class="counter__value" readonly value="0">
+             <div clas="counter__actions">
+                <button class="counter__button"
+             counter__button_first>-</button>
+             <button class="counter__button">+</button>
+             </div>
+        </main>
+        <footer class="footer">
+            Inspired by <a  class="footer__link" href="https://tallycount.app/">. Note this is a merely a student practice project for learning Javascript.</a>
+        </footer>
 
+    </body>
 </html>
